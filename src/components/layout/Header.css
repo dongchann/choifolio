@@ -1,0 +1,97 @@
+.Header {
+    height: 117px;
+}
+
+.Header .Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 100%;
+    margin:0 auto;
+}
+
+/* .container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua;
+}  */
+
+
+.HeaderLeft {
+    width: 33.33333333%;
+}
+
+.HeaderCenter {
+    width: 33.33333333%;
+}
+
+.HeaderSub {
+    width: 33.33333333%;
+}
+
+.MenuToggle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 29px;
+}
+
+.MenuToggle span{
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #8f8f8f;
+}
+.MenuToggle span::before {
+    content: "";
+    position: absolute;
+    top:8px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #8f8f8f;
+}
+
+.MenuToggle span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    width: 100%;
+    height: 2px;
+    background: #8f8f8f;
+}
+
+.HeaderCenter {
+    text-align: center;
+}
+
+
+.HeaderCenter a {
+    font-size: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #313131;
+    text-decoration: none;
+}
+.HeaderSub {
+    text-align: right;
+}
+
+.PortfolioBag {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background:red url('/src/assets/img/bag.png') 0 0 /100% no-repeat;
+    font-size: 0;
+    border:0;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.Footer {
+    width: 1290px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    background: #f3f3f3;
+}
+.footer_end h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #3e3e3e;
+    margin-top: 80px;
+
+}
+
+.footer_end p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #3e3e3e;
+    margin-top: 25px;
+}
+
+
+.gmail a {
+    display: block;
+    margin: 0 auto;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png"); 
+    width:30px;
+    height:30px;
+    margin-top: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,124 @@
+.SectionMiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100;
+    height: 100%;
+    background: #fff;
+    margin-top: 80px;
+    padding: 60px 60px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.ps-section__header h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #3e3e3e;
+    margin: 0 0 15px;
+}
+
+.ps-section__header p {
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #3e3e3e;
+    margin: 0 0 15px;
+    padding-top: 25px;
+}
+
+.btn_wrap{
+    text-align: center;
+}
+
+.view-all {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 1px solid #e3e3e3;
+    background: #fff;
+}
+.owl-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+.product-grid {
+
+    width: 370px;
+    margin-right: 30px;
+    background: #c99090;
+}
+
+
+.owl-item-img {
+    width: 370px;
+    height: 250px;
+    background: #3e3e3e;
+}
+
+
+.project{
+    margin-top: 74px;
+    display: flex;
+    gap: 0 30px;
+}
+
+.project-item{
+    width: calc(33.333% - 20px);
+}
+
+.project-item__content {
+    margin-top: 20px;
+    text-align: center;
+}
+.project-item__thumbnail{
+    position: relative;
+    background: #fff;
+}
+
+.project-item__thumbnail img{
+    vertical-align: top;
+    width: 100%;
+    height: auto;
+    transition: all .4s ease;
+}
+.project-item__thumbnail:hover img{
+    opacity: .6;
+}
+
+
+.project-item__title a{
+    display: inline-block;
+    font-size: 19px;
+    color: #3e3e3e;
+    line-height: 27px;
+    font-weight: bold;
+}
+
+.project-item__title a:hover{
+    text-decoration: underline;
+}
+
+.project-item__text{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8f8f8f;
+    line-height: 1.4;
+}
+
+.more__btn{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    transition: all .3s ease;
+}
+
+.more__btn:hover{
+    background: #a9803c;
+}
