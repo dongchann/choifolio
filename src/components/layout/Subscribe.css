@@ -1,5 +1,6 @@
 .contents-section__header{
-    width: 1290px;
+    width: 100%;
+    max-width: 1290px;
     padding-top: 80px;
     margin: 0 auto;
     /* margin-left: 60px;

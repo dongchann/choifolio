@@ -1,5 +1,6 @@
 .Main {
-    width: 1290px;
+    width: 100%;
+    max-width: 1290px;
     display: block;
     background: #fff;
     margin: 0 auto;

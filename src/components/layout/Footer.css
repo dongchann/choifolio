@@ -1,7 +1,8 @@
 .Footer {
-    width: 1290px;
+    width: 100%;
+    max-width: 1290px;
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding: 70px 0;
     background: #f3f3f3;
 }
 .footer_end h3{
@@ -9,9 +10,7 @@
     font-size: 30px;
     font-weight: 800;
     color: #3e3e3e;
-    margin-top: 80px;
-
-}
+} 
 
 .footer_end p{
     text-align: center;
