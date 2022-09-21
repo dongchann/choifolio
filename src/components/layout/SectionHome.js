@@ -1,36 +1,36 @@
 import React from "react";
+import { Swiper, SwiperSlide,  } from "swiper/react";
+import "swiper/swiper.min.css";
+import SwiperCore, { Navigation, Pagination, Scrollbar, Autoplay } from "swiper";
 import "./SectionHome.css"
+SwiperCore.use([Navigation, Pagination]);
 
+const SectionHome = () => {
 
+  const swiperStyle = {
+    position: "relative",
+    width: "100%",
+    height: "550px",
+    background: '#e2e2e2',
+  };
 
-function SectionHome(){
-    return(
-        <div className="SectionHome">
-            <div className="SectionHomeSlider">
-                <div className="SectionHomeSlider-container">
-                    <div className="tp-container">
-                        <div className="tp-slideshow" id="slider" style={{ opacity: 1, visibility:"false" }}>
-                            <ul className="tp-slideshow-mainul">
-                                <li className="tp-slideshow-active">
-                                    <div className="slotholder">
-                                        <div className="tp-bgimg">sss</div>
-                                        <div className="caption">
-                                            <div className="caption-text-01">
-                                                "최동찬"
-                                                <span>Portfoilo</span>
-                                                "2022"
-                                            </div>
-                                            <div className="caption-text-02"></div>
-                                            <button className="caption-text-02"></button>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    return (
+      <div className="SectionHome">
+            	<Swiper style={swiperStyle}
+      modules={[Navigation, Pagination, Scrollbar, Autoplay]}
+      spaceBetween={50}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      autoplay={{ delay: 3000 }}
+      >
+          <SwiperSlide className="SwiperSlide-img-01">Slide 1</SwiperSlide>
+          <SwiperSlide className="SwiperSlide-img-02">Slide 2</SwiperSlide>
+          <SwiperSlide className="SwiperSlide-img-03">Slide 3</SwiperSlide>
+      </Swiper>
+    
+      </div>
     )
 }
 
