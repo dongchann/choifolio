@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css"
-import SectionHome from "./SectionHome";
+import SectionHome from "../Section/SectionHome";
 import SectionMiddle from "./SectionMiddle";
 import SectionPortFolio from "./SectionPortfolio";
 

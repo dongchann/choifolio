@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Subscribe from "../Footer/Subscribe";
 import Header from "../Header/Header";
-import Main from "../Body/Main";
+import Main from "../Section/Main";
 import "../layout/Layout.css"
 
 
