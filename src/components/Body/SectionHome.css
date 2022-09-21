@@ -1,4 +1,4 @@
-.SectionHomeSlider {
+/* .SectionHomeSlider {
     padding: 60px 0;
     border-bottom: 1px solid #f3f3f3;
 }
@@ -73,4 +73,38 @@
     line-height: 1.2;
     color: #3e3e3e;
     font-size: 12px;
+} */
+
+.SectionHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 60px 60px;
+    border-bottom: 1px solid #f3f3f3;
+}.SectionHome {
+    padding: 60px 60px;
+}
+
+.SwiperSlide-img-01 {
+    width: 100%;
+    height: auto;
+    background-image: url(https://cdn.shopify.com/s/files/1/0008/2421/3556/files/home-1-slide-3_x1024.jpg?v=1521034142);
+    background-repeat: no-repeat;
+}
+
+.SwiperSlide-img-02 {
+    width: 100%;
+    height: auto;
+    background-image: url(https://cdn.shopify.com/s/files/1/0008/2421/3556/files/slider-1_x1024.jpg?v=1521032920);
+    background-repeat: no-repeat;
+}
+
+.SwiperSlide-img-03 {
+    width: 100%;
+    height: auto;
+    background-image: url(https://cdn.shopify.com/s/files/1/0008/2421/3556/files/home-1-slide-2_x1024.jpg?v=1521034104);
+    background-repeat: no-repeat;
 }

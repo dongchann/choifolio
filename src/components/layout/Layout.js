@@ -1,9 +1,10 @@
 import React from "react";
-import Footer from "./Footer";
-import Header from "./Header";
-import Main from "./Main";
-import "./Layout.css"
-import Subscribe from "./Subscribe";
+import Footer from "../Footer/Footer";
+import Subscribe from "../Footer/Subscribe";
+import Header from "../Header/Header";
+import Main from "../Body/Main";
+import "../layout/Layout.css"
+
 
 function Layout(){
     return(
