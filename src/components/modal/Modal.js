@@ -9,7 +9,6 @@ import TodoTemplate from "./modalcomponents/Todocomponents/TodoTemplate";
 
 function Modal({closeModal}) {
 
-
   useEffect(() => {
     document.body.style.cssText = `
       position: fixed; 
@@ -41,3 +40,6 @@ function Modal({closeModal}) {
 }
 
 export default Modal;
+
+
+

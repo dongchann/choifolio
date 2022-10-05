@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../modal/Modal";
+import ModalSmg from "../modal/ModalSmg";
 import "./SectionMiddle.css"
 
 
@@ -7,9 +8,17 @@ import "./SectionMiddle.css"
 
 function SectionMiddle(){
     const [modal, setModal] = useState(false);
+
+    const [modalSmg, setModalSmg] = useState(false)
+
     const closeModal = () => {
         setModal(false)
     }
+
+    const closeModalSmg =  () => {
+        setModalSmg(false)
+    }
+
 
     return(
         <div className="SectionMiddle">
@@ -53,9 +62,12 @@ function SectionMiddle(){
                                 <a href="./">what we do?</a>
                             </h4>
                             <p className="project-item__text">
-                            가Quisque sit amet ex at orci posuere ullamcorper.Maecenas at iaculis diam. Nulla sem mauris, posuere id orci   eget, rutrum efficitur nisl.
+                            가Quisque sit amet ex at orci posuere ullamcorper.Maecenas at iaculis diam. Nulla sem mauris, posuere id orci   eget, rutrum efficitur nis가.
                             </p>
-                            <a href="./" className="more__btn"> </a>
+                            <button type="button" className="more__btn" onClick={ ()=>{ setModalSmg(true)}}></button>
+                            {modalSmg === true ? <ModalSmg closeModalSmg={closeModalSmg} /> : null}
+                            
+
                         </div>
                     </div>
                     <div className="project-item">
